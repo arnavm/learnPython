@@ -2,7 +2,7 @@
 # we get 3, 5, 6 and 9. The sum of these multiples is 23.
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-naturals = range(1, 1000) # All natural numbers from 1 to 1000
+naturals = range(1000) # All natural numbers from 1 to 1000
 total = 0 # The running total of all multiples of 3 or 5
 for number in naturals: # Iterate over all the natural numbers
     if number % 3 == 0 or number % 5 == 0: # If number is divisible by three or five...
